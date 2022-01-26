@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 
 import Navbar from "../../components/Navbar";
 import Dashed from "../../components/Dashed";
 import Footer from "../../components/Footer";
-import DotDecoration from "../../components/DotDecoration";
 
 import { Link } from "react-router-dom";
 
@@ -23,16 +22,6 @@ import Vektor1 from "../../assets/svg/welcome/Vector.svg";
 import "./landing.css";
 
 function Landing() {
-  // solusi
-  // psikolog
-  // rekomended
-
-  const [solusiDecoration, setSolusiDecoration] = useState([1, 2, 3, 4, 5]);
-  const [psikologDecoration, setPsikologDecoration] = useState([1, 2, 3]);
-  const [recomendedDecoration, setRecomendedDecoration] = useState([
-    1, 2, 3, 4, 5,
-  ]);
-
   useEffect(() => {
     document.title = "Celina | Homepage";
   }, []);
@@ -338,14 +327,6 @@ function Landing() {
         </div>
 
         <img src={Vector.rekomendasi} alt="" className="vectorRekomended1" />
-
-        <div className="recomendedDot">
-          {recomendedDecoration.map((item, index) => (
-            <div key={index}>
-              <DotDecoration kolom={5} />
-            </div>
-          ))}
-        </div>
 
         <img src={Dots.five} alt="" className="recomended-dots" />
       </section>
