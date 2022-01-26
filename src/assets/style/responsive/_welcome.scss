@@ -1,0 +1,165 @@
+@include xsm {
+  .vectorAlasan1 {
+    width: 100%;
+  }
+
+  .welcome {
+    // text-align: center;
+
+    img#hmm {
+      height: 60%;
+    }
+
+    .welcome-title {
+      font-size: 24px;
+    }
+
+    .welcome-desc {
+      font-size: 16px;
+    }
+  }
+
+  .saran {
+    div {
+      .saran-solusi {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .alasan {
+    .alasan-kiri {
+      h2 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .psikolog {
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .psikolog__list {
+      img {
+        height: 200px;
+        width: 200px;
+      }
+
+      .psikolog-name {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .testi {
+    .testi__left {
+      padding: 0;
+
+      .testi__left--card {
+        padding: 0;
+
+        h2 {
+          font-size: 24px;
+          line-height: 34px;
+        }
+      }
+    }
+
+    .testi__right {
+      margin: 10% 0;
+
+      &--card {
+        border-radius: 20px 20px 20px 20px;
+
+        p {
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+
+  .recomended {
+    .recomended__heading {
+      h2 {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .kesehatan {
+    .kesehatan__cont {
+      h2 {
+        font-size: 24px;
+        line-height: 34px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 26px;
+      }
+
+      a {
+        text-align: center;
+      }
+    }
+  }
+
+  .menu {
+    .menu__list {
+      font-size: 12px;
+    }
+
+    .menu__list--active {
+      font-size: 12px;
+    }
+  }
+
+  .footer {
+    .social__media {
+      a {
+        .social__media-cont {
+          width: 50px;
+          height: 50px;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+@include sm {
+  .welcome {
+    img.vector1 {
+      height: 95%;
+    }
+  }
+}
+
+@include lg {
+  .welcome {
+    .vector1 {
+      // top: 44%;
+      height: 105%;
+    }
+  }
+  .saran {
+    .saran-card__content {
+      h3 {
+        font-size: 16px;
+      }
+      p {
+        max-height: 112px;
+        min-height: 112px;
+      }
+    }
+  }
+}

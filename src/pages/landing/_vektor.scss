@@ -1,0 +1,88 @@
+.vector1 {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  object-fit: cover;
+}
+
+.vectorAlasan1 {
+  position: absolute;
+  z-index: -1;
+  top: 40%;
+  left: -4%;
+}
+
+.recomended {
+  position: relative;
+
+  .vectorRekomended1 {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    z-index: -1;
+    height: 55%;
+  }
+
+  &Dot {
+    position: absolute;
+    width: auto;
+    top: 0;
+    right: 0;
+  }
+}
+
+.kesehatan {
+  position: relative;
+
+  .cta1 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 95%;
+    right: 0;
+  }
+
+  .cta2 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 95%;
+    right: 0;
+    // right: -30%;
+  }
+}
+
+.saran-dots {
+  position: absolute;
+  z-index: -1;
+  top: 30%;
+  right: 6%;
+}
+
+.psikolog {
+  position: relative;
+}
+
+.psikolog-dots4 {
+  position: absolute;
+  // bottom: 20%;
+  left: 2%;
+}
+
+.psikolog-dots5 {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.recomended {
+  position: relative;
+
+  &-dots {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: -1;
+  }
+}

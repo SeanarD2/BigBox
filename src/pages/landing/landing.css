@@ -1,0 +1,573 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@media screen and (max-width: 575.98px) {
+  .vectorAlasan1 {
+    width: 100%;
+  }
+  .welcome img#hmm {
+    height: 60%;
+  }
+  .welcome .welcome-title {
+    font-size: 24px;
+  }
+  .welcome .welcome-desc {
+    font-size: 16px;
+  }
+  .saran div .saran-solusi {
+    font-size: 24px;
+  }
+  .alasan .alasan-kiri h2 {
+    font-size: 24px;
+  }
+  .alasan .alasan-kiri p {
+    font-size: 16px;
+  }
+  .psikolog h2 {
+    font-size: 24px;
+  }
+  .psikolog p {
+    font-size: 16px;
+  }
+  .psikolog .psikolog__list img {
+    height: 200px;
+    width: 200px;
+  }
+  .psikolog .psikolog__list .psikolog-name {
+    font-size: 18px;
+  }
+  .testi .testi__left {
+    padding: 0;
+  }
+  .testi .testi__left .testi__left--card {
+    padding: 0;
+  }
+  .testi .testi__left .testi__left--card h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .testi .testi__right {
+    margin: 10% 0;
+  }
+  .testi .testi__right--card {
+    border-radius: 20px 20px 20px 20px;
+  }
+  .testi .testi__right--card p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .recomended .recomended__heading h2 {
+    font-size: 24px;
+  }
+  .kesehatan .kesehatan__cont h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .kesehatan .kesehatan__cont p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .kesehatan .kesehatan__cont a {
+    text-align: center;
+  }
+  .menu .menu__list {
+    font-size: 12px;
+  }
+  .menu .menu__list--active {
+    font-size: 12px;
+  }
+  .footer .social__media a .social__media-cont {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .welcome img.vector1 {
+    height: 95%;
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .welcome .vector1 {
+    height: 105%;
+  }
+  .saran .saran-card__content h3 {
+    font-size: 16px;
+  }
+  .saran .saran-card__content p {
+    max-height: 112px;
+    min-height: 112px;
+  }
+}
+
+.vector1 {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.vectorAlasan1 {
+  position: absolute;
+  z-index: -1;
+  top: 40%;
+  left: -4%;
+}
+
+.recomended {
+  position: relative;
+}
+
+.recomended .vectorRekomended1 {
+  position: absolute;
+  top: 15%;
+  right: 0%;
+  z-index: -1;
+  height: 55%;
+}
+
+.recomendedDot {
+  position: absolute;
+  width: auto;
+  top: 0;
+  right: 0;
+}
+
+.kesehatan {
+  position: relative;
+}
+
+.kesehatan .cta1 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 95%;
+  right: 0;
+}
+
+.kesehatan .cta2 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 95%;
+  right: 0;
+}
+
+.saran-dots {
+  position: absolute;
+  z-index: -1;
+  top: 30%;
+  right: 6%;
+}
+
+.psikolog {
+  position: relative;
+}
+
+.psikolog-dots4 {
+  position: absolute;
+  left: 2%;
+}
+
+.psikolog-dots5 {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.recomended {
+  position: relative;
+}
+
+.recomended-dots {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: -1;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #3d3d3d;
+}
+
+section {
+  padding: 8% 0;
+}
+
+.welcome-image {
+  width: 100%;
+}
+
+.welcome-to {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: rgba(61, 61, 61, 0.8);
+}
+
+.welcome-title {
+  font-family: "Montserrat", sans-serif;
+  color: #805ab1;
+  font-weight: 800;
+  font-size: 52px;
+}
+
+.welcome-desc {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #3d3d3d;
+}
+
+.welcome-button {
+  background-color: #41bee5;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.saran {
+  position: relative;
+  margin: 1% 0 12% 0;
+}
+
+.saran .saran-solusi {
+  width: 75%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 44px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.saran-card__content {
+  background-color: white;
+  -webkit-box-shadow: 20px 20px 48px rgba(128, 90, 177, 0.1);
+          box-shadow: 20px 20px 48px rgba(128, 90, 177, 0.1);
+  border-radius: 20px;
+}
+
+.saran-card__content .image-containter {
+  height: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.saran-card__content h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.saran-card__content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  min-height: 84px;
+  max-height: 84px;
+}
+
+.alasan {
+  padding: 8% 0px;
+  background-color: #f6fcfe;
+}
+
+.alasan-kiri {
+  width: 80%;
+}
+
+.alasan-kiri h2 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.alasan-kiri p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.alasan-kanan {
+  height: 100%;
+}
+
+.alasan-kanan .alasan-items img {
+  margin-right: 1rem;
+}
+
+.alasan-kanan .alasan-items span {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.psikolog__heading--title {
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.psikolog__heading--desc {
+  font-weight: 400;
+  font-size: 20px;
+  color: #3d3d3d;
+}
+
+.psikolog__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.psikolog__list--container {
+  width: 80%;
+}
+
+.psikolog__list--container div img {
+  height: 224px;
+  width: 224px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+.psikolog__list .psikolog-name {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #3d3d3d;
+}
+
+.psikolog__list .psikolog-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(61, 61, 61, 0.4);
+  margin-top: 1rem;
+}
+
+.testi {
+  padding: 0px !important;
+}
+
+.testi .row {
+  padding: 0;
+  margin: 0;
+}
+
+.testi__left {
+  padding: 2% 0%;
+  background-color: #f6fcfe;
+}
+
+.testi__left--card {
+  padding: 8% 20% 8% 15%;
+  background-color: #f6fcfe;
+}
+
+.testi__left--card h2 {
+  font-size: 44px;
+  line-height: 64px;
+  font-weight: 700;
+}
+
+.testi__left--card p {
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(61, 61, 61, 0.8);
+  font-weight: 400;
+}
+
+.testi__left--card .quote-hide {
+  visibility: hidden;
+}
+
+.testi__right {
+  padding: 2% 0;
+}
+
+.testi__right--card {
+  padding: 8% 5%;
+  background: #ffffff;
+  -webkit-box-shadow: 10px 10px 40px rgba(61, 61, 61, 0.5);
+          box-shadow: 10px 10px 40px rgba(61, 61, 61, 0.5);
+  border-radius: 0px 20px 20px 0px;
+}
+
+.testi__right--card .testi__right--customer .customer__details--name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.testi__right--card .testi__right--customer .customer__details--title {
+  font-size: 14px;
+  color: #474a57;
+  font-weight: 400;
+}
+
+.testi__right--card p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #18191f;
+}
+
+.testi__right--card .testi__right__arrow--cont .testi__right--arrow {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.testi__right--card .quote-right {
+  opacity: 0.3;
+}
+
+.recomended__heading h2 {
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.recomended__articles--article img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.recomended__articles--article .article__details {
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  -webkit-box-shadow: 10px 40px 50px rgba(61, 61, 61, 0.06);
+          box-shadow: 10px 40px 50px rgba(61, 61, 61, 0.06);
+}
+
+.recomended__articles--article .article__details .tema {
+  color: #805ab1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.recomended__articles--article .article__details .judul {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.recomended__articles--article .article__details p {
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(61, 61, 61, 0.8);
+  font-weight: 400;
+}
+
+.recomended__articles--article a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.kesehatan__cont {
+  border-radius: 20px;
+  background-color: #41bee5;
+  color: white;
+}
+
+.kesehatan__cont h2 {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+.kesehatan__cont p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.kesehatan__cont .button {
+  background-color: white;
+  color: #41bee5;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.appoinment-button {
+  font-weight: 700;
+}
+
+.dashed {
+  width: 71px;
+  height: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dashed div:nth-child(1) {
+  width: 37px;
+  background-color: #805ab1;
+  border-radius: 50px;
+}
+
+.dashed div:nth-child(2) {
+  width: 8px;
+  background-color: #805ab1;
+  border-radius: 50px;
+}
+
+.dashed div:nth-child(3) {
+  width: 16px;
+  border-radius: 50px;
+  background-color: #805ab1;
+}
+
+.dotted {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dotted div:nth-child(odd) {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #41bee5;
+}
+
+.dotted div:nth-child(2) {
+  border: 3px solid #41bee5;
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+}
+
+.dotDecoration {
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  border-radius: 100%;
+  background-color: #41bee5;
+  margin: 0.5% 1%;
+}
+/*# sourceMappingURL=landing.css.map */

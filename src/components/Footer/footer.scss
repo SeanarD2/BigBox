@@ -1,0 +1,93 @@
+@import "../../assets//style/variable";
+footer {
+  background-color: $background-color;
+}
+
+.footer {
+  background-color: $background-color;
+  padding: 8% 0;
+
+  &__about {
+    img {
+      width: 120px;
+    }
+
+    p {
+      size: 14px;
+      font-weight: 600;
+      line-height: 24px;
+    }
+  }
+
+  .social__media {
+    a {
+      margin-right: 10%;
+
+      .social__media-cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+        background-color: #eaecf6;
+        padding: 2%;
+      }
+    }
+  }
+
+  &__section--title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  &__links {
+    &--content {
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        transition: 0.2s all ease-in-out;
+
+        &:hover {
+          color: $active-color;
+        }
+      }
+    }
+  }
+
+  &__reach {
+    &-links {
+      .img-container {
+        width: 2%;
+      }
+
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.subFooter {
+  p {
+    size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+
+    span {
+      color: $primary-color;
+    }
+
+    a {
+      text-decoration: none;
+      color: $text-gray;
+      transition: 0.3s all ease-in-out;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import "../../assets/style/variable";
+
+.menu {
+  .menu__list {
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 1rem;
+
+    &:hover {
+      background-color: $primary-color;
+      border-radius: 1rem;
+      color: $text-white;
+      cursor: pointer;
+    }
+  }
+
+  &__list--active {
+    border-radius: 1rem;
+    margin: 0 0.2rem;
+    padding: 0.5rem 1rem;
+    background-color: $active-color;
+    border-radius: 1rem;
+    color: $text-white;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      padding: 0.5rem 1rem;
+      background-color: $active-color;
+      border-radius: 1rem;
+      color: $text-white;
+      cursor: default;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.menu .menu__list {
+  padding: 0.5rem 1rem;
+  margin: 0 0.2rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  border-radius: 1rem;
+}
+
+.menu .menu__list:hover {
+  background-color: #41bee5;
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.menu__list--active {
+  border-radius: 1rem;
+  margin: 0 0.2rem;
+  padding: 0.5rem 1rem;
+  background-color: #805ab1;
+  border-radius: 1rem;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu__list--active:hover {
+  padding: 0.5rem 1rem;
+  background-color: #805ab1;
+  border-radius: 1rem;
+  color: white;
+  cursor: default;
+}
+/*# sourceMappingURL=navbar.css.map */
